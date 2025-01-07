@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on Example Site</title>
+        <link>https://example.com/post/</link>
+        <description>Recent content in Posts on Example Site</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <copyright>Example Person</copyright>
+        <lastBuildDate>Tue, 07 Jan 2025 17:16:14 +0800</lastBuildDate><atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>示例</title>
+        <link>https://example.com/p/%E7%A4%BA%E4%BE%8B/</link>
+        <pubDate>Tue, 07 Jan 2025 17:16:14 +0800</pubDate>
+        
+        <guid>https://example.com/p/%E7%A4%BA%E4%BE%8B/</guid>
+        <description>&lt;p&gt;Please input your gene expression file. Compressed formats of &amp;ldquo;.gz&amp;rdquo; and &amp;ldquo;.zip&amp;rdquo; are accepted.The input data should be a square matrix of gene expression profiles for all patients. Each column represents the patient ID, and each row represents a gene name which can be either symbol name (e.g., TGFB1) or Entrez ID (e.g., 7040).Note: The gene expression value should be normalized toward a control sample which could be either normal tissues related with a cancer type or mixture sample from diverse tumor samples. The log2(RPKM+1) values from a RNA-seq experiment may not be meaningful unless a good reference control is available to adjust the batch effect and cancer type difference. In our study, we used the all sample average in each study as the normalization control.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
