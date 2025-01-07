@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>Posts on Example Site</title>
-        <link>https://example.com/post/</link>
-        <description>Recent content in Posts on Example Site</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>en</language>
-        <copyright>Example Person</copyright>
-        <lastBuildDate>Tue, 07 Jan 2025 17:18:00 +0800</lastBuildDate><atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>示例</title>
-        <link>https://example.com/p/%E7%A4%BA%E4%BE%8B/</link>
-        <pubDate>Tue, 07 Jan 2025 17:18:00 +0800</pubDate>
-        
-        <guid>https://example.com/p/%E7%A4%BA%E4%BE%8B/</guid>
-        <description>&lt;p&gt;构建和查看网站： 在完成博客文章后，运行以下命令来生成网站并启动开发服务器：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on blog</title>
+    <link>https://example.org/post/</link>
+    <description>Recent content in Posts on blog</description>
+    <generator>Hugo -- 0.134.3</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 07 Jan 2025 17:18:00 +0800</lastBuildDate>
+    <atom:link href="https://example.org/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>示例</title>
+      <link>https://example.org/post/second/</link>
+      <pubDate>Tue, 07 Jan 2025 17:18:00 +0800</pubDate>
+      <guid>https://example.org/post/second/</guid>
+      <description>&lt;p&gt;构建和查看网站： 在完成博客文章后，运行以下命令来生成网站并启动开发服务器：&lt;/p&gt;
 &lt;p&gt;bash
 复制代码
 hugo server
@@ -24,18 +24,14 @@ public 目录： 这个目录是 Hugo 执行构建命令后生成的静态文件
 总结
 你的博客文章应该放在 content/posts/ 目录下，而不是 public 目录。
 使用 hugo server 来查看本地网站，并在你准备好发布时运行 hugo 命令生成静态文件，文件会自动输出到 public 目录。
-希望这些说明能帮助你更好地理解 Hugo 网站的结构！&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>示例</title>
-        <link>https://example.com/p/%E7%A4%BA%E4%BE%8B/</link>
-        <pubDate>Tue, 07 Jan 2025 17:16:14 +0800</pubDate>
-        
-        <guid>https://example.com/p/%E7%A4%BA%E4%BE%8B/</guid>
-        <description>&lt;p&gt;Please input your gene expression file. Compressed formats of &amp;ldquo;.gz&amp;rdquo; and &amp;ldquo;.zip&amp;rdquo; are accepted.The input data should be a square matrix of gene expression profiles for all patients. Each column represents the patient ID, and each row represents a gene name which can be either symbol name (e.g., TGFB1) or Entrez ID (e.g., 7040).Note: The gene expression value should be normalized toward a control sample which could be either normal tissues related with a cancer type or mixture sample from diverse tumor samples. The log2(RPKM+1) values from a RNA-seq experiment may not be meaningful unless a good reference control is available to adjust the batch effect and cancer type difference. In our study, we used the all sample average in each study as the normalization control.&lt;/p&gt;
-</description>
-        </item>
-        
-    </channel>
+希望这些说明能帮助你更好地理解 Hugo 网站的结构！&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>示例</title>
+      <link>https://example.org/post/%E7%A4%BA%E4%BE%8B/</link>
+      <pubDate>Tue, 07 Jan 2025 17:16:14 +0800</pubDate>
+      <guid>https://example.org/post/%E7%A4%BA%E4%BE%8B/</guid>
+      <description>&lt;p&gt;Please input your gene expression file. Compressed formats of &amp;ldquo;.gz&amp;rdquo; and &amp;ldquo;.zip&amp;rdquo; are accepted.The input data should be a square matrix of gene expression profiles for all patients. Each column represents the patient ID, and each row represents a gene name which can be either symbol name (e.g., TGFB1) or Entrez ID (e.g., 7040).Note: The gene expression value should be normalized toward a control sample which could be either normal tissues related with a cancer type or mixture sample from diverse tumor samples. The log2(RPKM+1) values from a RNA-seq experiment may not be meaningful unless a good reference control is available to adjust the batch effect and cancer type difference. In our study, we used the all sample average in each study as the normalization control.&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>
