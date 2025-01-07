@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="Please input your gene expression file. Compressed formats of &ldquo;.gz&rdquo; and &ldquo;.zip&rdquo; are accepted.The input data should be a square matrix of gene expression profiles for all patients. Each column represents the patient ID, and each row represents a gene name which can be either symbol name (e.g., TGFB1) or Entrez ID (e.g., 7040).Note: The gene expression value should be normalized toward a control sample which could be either normal tissues related with a cancer type or mixture sample from diverse tumor samples. The log2(RPKM+1) values from a RNA-seq experiment may not be meaningful unless a good reference control is available to adjust the batch effect and cancer type difference. In our study, we used the all sample average in each study as the normalization control.\n">
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="构建和查看网站： 在完成博客文章后，运行以下命令来生成网站并启动开发服务器：\nbash 复制代码 hugo server 你可以在浏览器中访问 http://localhost:1313 来查看网站，Hugo 会将文章自动转换为 HTML 页面并放置在 public 目录中。\npublic 目录和 content 目录的关系 content 目录： 你在这里放置的是博客文章、页面、图片等源文件，Hugo 会自动处理这些文件，生成网站内容。 public 目录： 这个目录是 Hugo 执行构建命令后生成的静态文件。它是你网站的最终输出，包含了所有的 HTML、CSS、JS 文件以及图片。你不需要手动放置文件到 public 目录，Hugo 会自动处理。 总结 你的博客文章应该放在 content/posts/ 目录下，而不是 public 目录。 使用 hugo server 来查看本地网站，并在你准备好发布时运行 hugo 命令生成静态文件，文件会自动输出到 public 目录。 希望这些说明能帮助你更好地理解 Hugo 网站的结构！\n">
 <title>示例</title>
 
 <link rel='canonical' href='https://example.com/p/%E7%A4%BA%E4%BE%8B/'>
 
 <link rel="stylesheet" href="/scss/style.min.b9c8156d464c343bdacaf14a871581fb94cbbdb9dd5cbce4ba017361187cc930.css"><meta property='og:title' content="示例">
-<meta property='og:description' content="Please input your gene expression file. Compressed formats of &ldquo;.gz&rdquo; and &ldquo;.zip&rdquo; are accepted.The input data should be a square matrix of gene expression profiles for all patients. Each column represents the patient ID, and each row represents a gene name which can be either symbol name (e.g., TGFB1) or Entrez ID (e.g., 7040).Note: The gene expression value should be normalized toward a control sample which could be either normal tissues related with a cancer type or mixture sample from diverse tumor samples. The log2(RPKM+1) values from a RNA-seq experiment may not be meaningful unless a good reference control is available to adjust the batch effect and cancer type difference. In our study, we used the all sample average in each study as the normalization control.\n">
+<meta property='og:description' content="构建和查看网站： 在完成博客文章后，运行以下命令来生成网站并启动开发服务器：\nbash 复制代码 hugo server 你可以在浏览器中访问 http://localhost:1313 来查看网站，Hugo 会将文章自动转换为 HTML 页面并放置在 public 目录中。\npublic 目录和 content 目录的关系 content 目录： 你在这里放置的是博客文章、页面、图片等源文件，Hugo 会自动处理这些文件，生成网站内容。 public 目录： 这个目录是 Hugo 执行构建命令后生成的静态文件。它是你网站的最终输出，包含了所有的 HTML、CSS、JS 文件以及图片。你不需要手动放置文件到 public 目录，Hugo 会自动处理。 总结 你的博客文章应该放在 content/posts/ 目录下，而不是 public 目录。 使用 hugo server 来查看本地网站，并在你准备好发布时运行 hugo 命令生成静态文件，文件会自动输出到 public 目录。 希望这些说明能帮助你更好地理解 Hugo 网站的结构！\n">
 <meta property='og:url' content='https://example.com/p/%E7%A4%BA%E4%BE%8B/'>
 <meta property='og:site_name' content='Example Site'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-01-07T17:16:14&#43;08:00'/><meta property='article:modified_time' content='2025-01-07T17:16:14&#43;08:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-01-07T17:18:00&#43;08:00'/><meta property='article:modified_time' content='2025-01-07T17:18:00&#43;08:00'/>
 <meta name="twitter:title" content="示例">
-<meta name="twitter:description" content="Please input your gene expression file. Compressed formats of &ldquo;.gz&rdquo; and &ldquo;.zip&rdquo; are accepted.The input data should be a square matrix of gene expression profiles for all patients. Each column represents the patient ID, and each row represents a gene name which can be either symbol name (e.g., TGFB1) or Entrez ID (e.g., 7040).Note: The gene expression value should be normalized toward a control sample which could be either normal tissues related with a cancer type or mixture sample from diverse tumor samples. The log2(RPKM+1) values from a RNA-seq experiment may not be meaningful unless a good reference control is available to adjust the batch effect and cancer type difference. In our study, we used the all sample average in each study as the normalization control.\n">
+<meta name="twitter:description" content="构建和查看网站： 在完成博客文章后，运行以下命令来生成网站并启动开发服务器：\nbash 复制代码 hugo server 你可以在浏览器中访问 http://localhost:1313 来查看网站，Hugo 会将文章自动转换为 HTML 页面并放置在 public 目录中。\npublic 目录和 content 目录的关系 content 目录： 你在这里放置的是博客文章、页面、图片等源文件，Hugo 会自动处理这些文件，生成网站内容。 public 目录： 这个目录是 Hugo 执行构建命令后生成的静态文件。它是你网站的最终输出，包含了所有的 HTML、CSS、JS 文件以及图片。你不需要手动放置文件到 public 目录，Hugo 会自动处理。 总结 你的博客文章应该放在 content/posts/ 目录下，而不是 public 目录。 使用 hugo server 来查看本地网站，并在你准备好发布时运行 hugo 命令生成静态文件，文件会自动输出到 public 目录。 希望这些说明能帮助你更好地理解 Hugo 网站的结构！\n">
     </head>
     <body class="
     article-page
@@ -331,7 +331,18 @@
     <section class="article-content">
     
     
-    <p>Please input your gene expression file. Compressed formats of &ldquo;.gz&rdquo; and &ldquo;.zip&rdquo; are accepted.The input data should be a square matrix of gene expression profiles for all patients. Each column represents the patient ID, and each row represents a gene name which can be either symbol name (e.g., TGFB1) or Entrez ID (e.g., 7040).Note: The gene expression value should be normalized toward a control sample which could be either normal tissues related with a cancer type or mixture sample from diverse tumor samples. The log2(RPKM+1) values from a RNA-seq experiment may not be meaningful unless a good reference control is available to adjust the batch effect and cancer type difference. In our study, we used the all sample average in each study as the normalization control.</p>
+    <p>构建和查看网站： 在完成博客文章后，运行以下命令来生成网站并启动开发服务器：</p>
+<p>bash
+复制代码
+hugo server
+你可以在浏览器中访问 http://localhost:1313 来查看网站，Hugo 会将文章自动转换为 HTML 页面并放置在 public 目录中。</p>
+<p>public 目录和 content 目录的关系
+content 目录： 你在这里放置的是博客文章、页面、图片等源文件，Hugo 会自动处理这些文件，生成网站内容。
+public 目录： 这个目录是 Hugo 执行构建命令后生成的静态文件。它是你网站的最终输出，包含了所有的 HTML、CSS、JS 文件以及图片。你不需要手动放置文件到 public 目录，Hugo 会自动处理。
+总结
+你的博客文章应该放在 content/posts/ 目录下，而不是 public 目录。
+使用 hugo server 来查看本地网站，并在你准备好发布时运行 hugo 命令生成静态文件，文件会自动输出到 public 目录。
+希望这些说明能帮助你更好地理解 Hugo 网站的结构！</p>
 
 </section>
 

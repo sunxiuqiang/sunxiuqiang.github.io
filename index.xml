@@ -7,7 +7,27 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Tue, 07 Jan 2025 17:16:14 +0800</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 07 Jan 2025 17:18:00 +0800</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>示例</title>
+        <link>https://example.com/p/%E7%A4%BA%E4%BE%8B/</link>
+        <pubDate>Tue, 07 Jan 2025 17:18:00 +0800</pubDate>
+        
+        <guid>https://example.com/p/%E7%A4%BA%E4%BE%8B/</guid>
+        <description>&lt;p&gt;构建和查看网站： 在完成博客文章后，运行以下命令来生成网站并启动开发服务器：&lt;/p&gt;
+&lt;p&gt;bash
+复制代码
+hugo server
+你可以在浏览器中访问 http://localhost:1313 来查看网站，Hugo 会将文章自动转换为 HTML 页面并放置在 public 目录中。&lt;/p&gt;
+&lt;p&gt;public 目录和 content 目录的关系
+content 目录： 你在这里放置的是博客文章、页面、图片等源文件，Hugo 会自动处理这些文件，生成网站内容。
+public 目录： 这个目录是 Hugo 执行构建命令后生成的静态文件。它是你网站的最终输出，包含了所有的 HTML、CSS、JS 文件以及图片。你不需要手动放置文件到 public 目录，Hugo 会自动处理。
+总结
+你的博客文章应该放在 content/posts/ 目录下，而不是 public 目录。
+使用 hugo server 来查看本地网站，并在你准备好发布时运行 hugo 命令生成静态文件，文件会自动输出到 public 目录。
+希望这些说明能帮助你更好地理解 Hugo 网站的结构！&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>示例</title>
         <link>https://example.com/p/%E7%A4%BA%E4%BE%8B/</link>
         <pubDate>Tue, 07 Jan 2025 17:16:14 +0800</pubDate>
