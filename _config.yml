@@ -1,0 +1,5 @@
+# _config.yml（关键项）
+plugins:
+  - jekyll-remote-theme
+remote_theme: Phlow/feeling-responsive
+# 建议后续补充你的网站信息（见下方“关键配置”）
