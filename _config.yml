@@ -1,5 +1,7 @@
-# _config.yml（关键项）
+title: "Sun Xiuqiang"
+description: "Personal site"
+url: "https://sunxiuqiang.github.io"
+baseurl: ""  # 用户主页站点通常为空
 plugins:
   - jekyll-remote-theme
 remote_theme: Phlow/feeling-responsive@v1.91
-# 建议后续补充你的网站信息（见下方“关键配置”）
