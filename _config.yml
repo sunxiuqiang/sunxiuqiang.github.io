@@ -4,4 +4,4 @@ url: "https://sunxiuqiang.github.io"
 baseurl: ""  # 用户主页站点通常为空
 plugins:
   - jekyll-remote-theme
-remote_theme: Phlow/feeling-responsive@v1.91
+remote_theme: Phlow/feeling-responsive
