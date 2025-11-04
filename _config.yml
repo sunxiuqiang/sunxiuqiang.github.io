@@ -3,5 +3,5 @@ description: "Personal site"
 url: "https://sunxiuqiang.github.io"
 baseurl: ""  # 用户主页站点通常为空
 plugins:
-  - jekyll-remote-theme
-remote_theme: Phlow/feeling-responsive
+  - Twenty-Jekyll-Theme
+remote_theme: old-jekyll-templates/Twenty-Jekyll-Theme
